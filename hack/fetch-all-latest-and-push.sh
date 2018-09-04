@@ -43,7 +43,10 @@ repos=(
     apiextensions-apiserver
     metrics
     code-generator
-    csi-api
+    kube-controller-manager
+    kube-scheduler
+    kube-proxy
+    kubelet
 )
 
 repo_count=${#repos[@]}
